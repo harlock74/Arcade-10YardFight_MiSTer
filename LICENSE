@@ -1,0 +1,53 @@
+# Scoped project-owner licence grant
+
+The project owner has explicitly selected **GNU General Public License,
+version 3 or (at your option) any later version** (`GPL-3.0-or-later`) for
+copyrightable contributions in this 10-Yard Fight project **that the owner
+controls**. The complete GPLv3 text is in `LICENSES/GPL-3.0.txt`.
+
+This is a grant for the owner's contributions, not a claim to own or relicense
+an entire mixed-provenance repository. It applies to the following established
+project-authored material in this public source package, only to the extent the
+owner holds copyright in the particular expression:
+
+- Original game-board and high-score implementations in `rtl/m58_*.sv` and
+  `rtl/audio/m52_*.vhd`.
+- Original simulation, test, diagnostic and packaging/collector work maintained
+  separately in development; those optional materials are not included here.
+- Project-authored prose in `README.md`, `NOTICE.md`, and the included `docs/`
+  files; the private validation report remains under the same owner scope;
+  original project MRA metadata under `releases/`.
+- Project-specific authored portions of `Arcade-10YardFight.sv`. Inherited
+  template text and port/interface definitions in this mixed file are outside
+  this owner's grant.
+- Copyrightable project-authored changes shown by project history in
+  `sys/hq2x.sv`, `sys/sys_top.v`, `sys/video_mixer.sv`,
+  and `rtl/audio/cpu68.vhd`—**only those changes**, not
+  the inherited modules. The existence of a Git diff does not itself prove
+  that a change is copyrightable; this grant covers only what the owner can
+  license. The table-removal-only edit to `rtl/audio/YM2149.vhd` does not
+  assert ownership of MikeJ's remaining source.
+
+No owner licence is applied to the inherited `sys/` framework as a whole,
+Intel/Altera IP, T80, YM2149, CPU68's inherited code, the three `rtl/pll*`
+wrapper/QIP files whose authorship remains unresolved, the original GPL
+licence texts, game ROMs, Irem documentation, or any other third-party
+material. Original headers and terms continue to govern those parts. This
+statement grants no exception to third-party copyleft or Intel conditions.
+The project QPF/QSF/SDC and `files.qip` include template-derived or
+machine-readable configuration; no whole-file owner attribution is made.
+`rtl/T80/T80as.vhd` differs from the pinned comparison, but its initial-import
+delta is not established as this owner's edit and is not assigned this grant.
+
+The root `LICENSE` previously contained an unmodified copy of the Template
+repository's GNU GPL version 2 reference text. That text is preserved
+**byte-for-byte** in `LICENSES/GPL-2.0.txt`; it remains relevant to
+third-party framework notices, but never established that the owner had
+selected GPLv2 for all project contributions. `LICENSES/LGPL-3.0.txt` is
+retained for applicable third-party notices. See `NOTICE.md`,
+retained source headers for file-level notices, and the README/NOTICE for
+unresolved publication questions. Private evidence remains outside the staged
+standalone folder.
+
+This scoped grant does **not** certify compatibility of a combined source
+tree or RBF, establish legal clearance, or grant an exception to third-party terms.

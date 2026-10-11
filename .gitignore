@@ -1,0 +1,14 @@
+.DS_Store
+ROM/*.zip
+build_handoff/
+build_id.v
+jtag.cdf
+db/
+incremental_db/
+output_files/
+simulation/
+*.nvm
+*.sof
+*.pof
+*.jic
+*.qws
