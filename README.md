@@ -21,7 +21,7 @@ Only the MAME parent set `10yard` (World, set 1) is supported.
 
 ## Installation
 
-1. Copy `releases/10YardFight_20261004.rbf` to `/_Arcade/cores/`.
+1. Copy `releases/Arcade-10YardFight_20261004.rbf` to `/_Arcade/cores/` as `10YardFight_20261004.rbf`. The official Distribution installer removes the `Arcade-` prefix.
 2. Copy `releases/10-Yard Fight (World, set 1).mra` to `/_Arcade/`.
 3. Supply your legally obtained `10yard.zip` in `/games/mame/` and launch the MRA.
 
@@ -91,7 +91,7 @@ The supplied release RBF is the previously tested build. A newly compiled RBF sh
 
 **Release SHA-256:**
 
-`10YardFight_20261004.rbf`
+`Arcade-10YardFight_20261004.rbf`
 
 `93700528e841bf4115ff65988bfda1bcfe52aea9bfbe4be8048873faa7b92802`
 
