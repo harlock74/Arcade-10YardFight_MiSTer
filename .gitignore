@@ -1,14 +1,11 @@
-.DS_Store
-ROM/*.zip
-build_handoff/
-build_id.v
-jtag.cdf
-db/
-incremental_db/
-output_files/
-simulation/
-*.nvm
-*.sof
-*.pof
-*.jic
+# Generated Quartus output (source, IP and releases remain tracked).
+/db/
+/incremental_db/
+/output_files/
+/greybox_tmp/
+/hc_output/
+/.qsys_edit/
+/hps_isw_handoff/
 *.qws
+._*
+.DS_Store
