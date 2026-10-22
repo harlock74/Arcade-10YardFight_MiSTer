@@ -6,11 +6,15 @@ FPGA implementation of **10-Yard Fight**, originally released by Irem in 1983.
 
 Current status: functional behavioural implementation, mainly based on MAME/reference behaviour and available hardware documentation.
 
-Long-term goal: progressively improve the core through visual audits of schematic sheets and move it closer to a schematic-aligned implementation where possible.
-
 The core implements the Irem M58 game board and M52 Large sound board.
 
 Only the MAME parent set `10yard` (World, set 1) is supported.
+
+## How this core was developed
+
+This core was developed with the help of AI coding tools, which I used to write the code where my own experience fell short. Its current behaviour is largely based on MAME.
+
+I have compiled a netlist from the original 10-Yard Fight manuals, and I am now refactoring the core against it one circuit at a time, so that it moves closer to the original hardware.
 
 ## Screenshots
 
